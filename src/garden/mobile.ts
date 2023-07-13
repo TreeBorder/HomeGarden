@@ -249,7 +249,7 @@ export default class Garden {
     }
 
     private createModels = () => {
-        // this.scene.add(createBuilding());
+        this.scene.add(createBuilding());
         this.scene.add(createSan());
         this.scene.add(createWeilan());
         this.scene.add(createYinghua());
